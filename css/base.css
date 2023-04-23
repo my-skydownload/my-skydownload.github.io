@@ -37,7 +37,10 @@ a{
     height: 42;
     width: 42;
 }
-
+.body{
+    background-color:rgb(244, 244, 244);
+    
+}
 
 
 .boxtop{
