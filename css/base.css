@@ -1,0 +1,158 @@
+*{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font: 25 14pt "Microsoft JhengHei Light";
+}
+
+b{
+    font: 30 24pt "Microsoft JhengHei Light";
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.clearfix::before, .clearfix::after{
+    content: "";
+    display: table;
+}
+
+.clearfix::after{
+    clear:both;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.header{
+    height: 42;
+    width: 42;
+}
+
+
+
+.boxtop{
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    color: aliceblue;
+    background-color:rgb(71, 30, 255);
+    height: 70;
+    width: 100%;
+
+}
+
+
+
+/* 局部样式调整 */
+.bodyicon{
+
+    float: left;
+    
+}
+
+
+.name a{
+    line-height: 70px;
+    color: aliceblue;
+    float: left;
+    font-size: 24px;
+    font-family: "Microsoft JhengHei Light";
+}
+
+.menu{
+    padding: 0px 10px;
+    height: 70px;
+    float: right;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    float: left;
+    color: aliceblue;
+    padding: 0px 30px;
+    display: block;
+    height: 60px;
+    line-height: 70px;
+}
+
+
+
+.menu li a:hover{
+    border-bottom: 2px solid rgb(30, 191, 255);
+}
+.updateExplanation{
+    padding: 26px 0px 6px 8px;
+    font-size: 20px;
+}
+
+.explanation{
+    padding: 15px 15px 15px 15px;
+    position: relative;
+    width:86%;
+    background-color: rgb(229, 234, 239);
+    border-radius: 10px;
+    left: 18px;
+}
+
+
+
+.explanation h1{
+    position: relative;
+    font-size: 26px;
+}
+.explanation h1 li{
+    padding: 0px 0px 0px 8px;
+    position: relative;
+}
+.explanation h1 li p{
+    padding: 0px 0px 0px 8px;
+    position: relative;
+}
+
+.menu ul li:hover ul{
+    display: inline-block;
+}
+
+
+.menu ul li ul{
+    display: none;
+    position: absolute;
+    width: 130px;
+    height: 180px;
+    font-size: 60px;
+    background-color: rgb(243, 243, 243);
+    top: 62px;
+    right: 20px;
+    border: 1px solid rgba(153, 153, 153, 0.555)
+}
+
+.menu ul li ul:hover{
+    display: inline-block;
+}
+
+.menu ul li ul li a{
+    
+    font-size: 24px;
+    width: 70px;
+    color: rgb(36, 36, 36);
+}
+.menu ul li ul li a:hover{
+    background-color: rgb(217, 217, 217);
+}
+
+
+
+
